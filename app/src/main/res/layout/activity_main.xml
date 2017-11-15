@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light"
+    tools:context="com.example.admin.zoodirectory.MainActivity">
+
+    <TextView
+        android:id="@+id/zooHeader"
+        android:layout_width="215dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="55dp"
+        android:gravity="center"
+        android:text="Phoenix Zoo"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/viewCategory"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dip"
+        android:onClick="goToCategoryActivity"
+        android:text="View Categories" />
+
+</LinearLayout>
